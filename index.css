@@ -1,0 +1,34 @@
+
+
+.box{
+	border: 3px solid #E50000;
+	background-color: #E50000;
+	color: black;
+	text-align: center;
+	max-width: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+#submit {
+	font-size: 20px;
+}
+
+.submission{
+	max-width: 100%;
+	text-align: center;
+}
+
+.js-query{
+	width: 50	%;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 3px dotted black;
+}
+
+.js-user-name{
+	border: 3px black;
+}

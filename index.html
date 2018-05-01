@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset = "utf-8">
-	<meta name=viewport content="width=device-width">
-	<title></title>
-	<link href="index.css" type="text/css" ="stylesheet"></link>
-	<link href="index.js"  type="text/javascript"
-</head>
-<body>
-
-</body>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Youtube</title>
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+        <link href="demoTube.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+      <main>
+        <h1 class="box center">Youtube Keyword Search Tool</h1>
+          <form action="#" class="js-search-form">
+            <label for="query"></label>
+            <div class="submission">
+	            <input type="text" class="js-query"> <br></br>
+	            <button id="submit" type="submit">Search</button>
+        	</div>
+          </form>
+          
+          <h2 class="box center">Results</h2>
+          <div class="js-search-results">
+            
+          </div>
+      </main>
+      <script src="demoTube.js"></script>
+    </body>
 </html>
