@@ -11,21 +11,22 @@
         <link href="demoTube.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-      <main>
-        <h1 class="box center">Youtube Keyword Search Tool</h1>
-          <form action="#" class="js-search-form">
-            <label for="query"></label>
-            <div class="submission">
-	            <input type="text" class="js-query"> <br></br>
-	            <button id="submit" type="submit">Search</button>
-        	</div>
-          </form>
+      
+      <h1 class="box center">Youtube Keyword Search Tool</h1>
+        <form action="#" class="js-search-form">
+          <label for="query"></label>
+          <div class="submission">
+            <label for="mainTextBox">Please type here your search term</label>
+            <input id="mainTextBox" role="textbox" type="text" class="js-query"> 
+            <br></br>
+            <button id="submit" type="submit" role="button" aria-label="Press this button to output 5 results.">Search</button>
+        </div>
+        </form>
+        
+        <h2 class="box center">Results</h2>
+        <div class="js-search-results">
           
-          <h2 class="box center">Results</h2>
-          <div class="js-search-results">
-            
-          </div>
-      </main>
+        </div>
       <script src="demoTube.js"></script>
     </body>
 </html>
